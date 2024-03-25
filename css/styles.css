@@ -19,7 +19,7 @@ header {
   margin: 0 auto;
 }
 
-header h1{
+header h1 {
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
@@ -52,7 +52,7 @@ header nav ul li a {
 header nav ul li a:hover {
   border-bottom: 2px solid #ffffff;
   color: #333;
-  transition: 0.3s;
+  transition: ease-in 0.3s;
 }
 
 .navigation {
@@ -64,7 +64,7 @@ header nav ul li a:hover {
   top: -10px;
 }
 
-.profile-container button{
+.profile-container button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ header nav ul li a:hover {
 }
 
 .profile-container button:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 
@@ -115,4 +115,3 @@ footer nav ul li a:hover {
   color: #ff7011;
   transition: 0.3s;
 }
-

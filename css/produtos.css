@@ -1,40 +1,75 @@
-.container{
+.container {
   background-color: #ffffff;
   min-height: 60vh;
   padding: 50px;
   display: flex;
 }
 
-.catalogo-produto{
+.catalogo-produto {
   max-width: 1200px;
   margin: 0 auto;
+  align-items: stretch;
 }
 
-.card{
+.card {
   width: 31%;
   height: auto;
   margin: 1% 1%;
   display: inline-block;
-  padding: 15px; 
+  padding: 15px;
   background-color: #333;
   border-radius: 10px;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
-.produto-imagem{
+.produto-imagem {
   height: 300px;
   width: 100%;
   margin-bottom: 10px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
   border-radius: 5px;
 }
 
-#img-1{
-  background-image: url("../image/produto-1.jpg");
+#img-1 {
+  background-image: url("https://m.media-amazon.com/images/I/61EhuiKrF5L._AC_SX679_.jpg");
 }
 
-.catalogo-produto h2{
+#img-2 {
+  background-image: url("https://m.media-amazon.com/images/I/51l67o8UWSL._AC_SX679_.jpg");
+}
+
+#img-3 {
+  background-image: url("https://m.media-amazon.com/images/I/51MNb9SxqyL._AC_SX679_.jpg");
+}
+
+#img-4 {
+  background-image: url("https://www.gsuplementos.com.br/upload/produto/layout/72/produto1-mono-250.webp");
+}
+
+#img-5 {
+  background-image: url("https://m.media-amazon.com/images/I/51fpPqn3VbL._AC_SX679_.jpg");
+}
+
+#img-6 {
+  background-image: url("https://m.media-amazon.com/images/I/61ab639aDML._AC_SX679_.jpg");
+}
+
+#img-7 {
+  background-image: url("https://m.media-amazon.com/images/I/51eFDucRRvL._AC_SX679_.jpg");
+}
+
+#img-8 {
+  background-image: url("https://m.media-amazon.com/images/I/61eh7lsUz7L._AC_SX679_.jpg");
+}
+
+#img-9 {
+  background-image: url("https://m.media-amazon.com/images/I/61d2Himjc3L._AC_SX679_.jpg");
+}
+
+.catalogo-produto h2 {
   background-color: #333;
   color: #ffffff;
   padding: 5px;
@@ -44,7 +79,7 @@
   padding-left: 10px;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,21 +95,20 @@
 }
 
 .btn:hover {
-  transform:scale(1.05);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
-h3{
+h3 {
   margin-bottom: 10px;
   font-size: 25px;
 }
 
-.card p{
+.card p {
   margin-bottom: 10px;
 }
 
-.card p span{
+.card p span {
   font-size: 20px;
   text-decoration: underline;
 }
-

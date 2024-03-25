@@ -28,15 +28,17 @@
 .main-content p{
   color: #ffffff;
   margin-left: 30px;
-  padding: 20px 0;
+  padding: 20px 30px 20px 0;
   font-size: 25px;
+  text-align: justify;
 }
 
 .main-content ul{
   color: #ffffff;
   margin-left: 30px;
-  padding: 20px ;
+  padding: 25px ;
   font-size: 20px;
+  text-align: justify;
 }
 
 .main-content ul li{
@@ -74,6 +76,7 @@ span{
   font-size: 20px;
   margin: 20px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .sla button a{
@@ -84,5 +87,12 @@ span{
 .sla button:hover{
   background-color: #ff8c42;
   transform: scale(1.1);
-  transition: ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  animation: none;
+}
+
+.sla button{ animation: pulse 2s  infinite;} @keyframes pulse { 
+  0% { transform: scale(1); } 
+  50% { transform: scale(1.1); } 
+  100% { transform: scale(1); } 
 }
