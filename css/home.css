@@ -1,0 +1,55 @@
+.container{
+  min-height: 80vh;
+  background-image: linear-gradient(to top, rgb(51, 51, 51), rgba(255, 255, 255, 0)), url(../assets/slaman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-content{
+  padding: 50px;
+  display: flex;
+}
+
+.home-text{
+  margin-top: 100px;
+  padding: 30px;
+  color: #fff;
+}
+
+.home-text h1 span{
+  font-size: 5rem;
+  text-shadow: 7px 7px 10px #000;
+}
+
+.home-text p{
+  font-size: 1.7rem;
+  text-shadow: 2px 2px 5px #000;
+  text-shadow: 4px 4px 7px #000;
+  text-shadow: 6px 6px 9px #000;
+  text-align: justify;
+}
+
+.home-image {
+  margin-top: 175px;
+  padding: 50px;
+  filter: drop-shadow(8px 8px 10px #000);
+  rotate: 45deg;
+  animation: pulse 0.9s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+.home-image img{
+}
