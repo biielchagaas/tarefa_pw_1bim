@@ -1,6 +1,7 @@
 .container {
   padding: 60px;
   min-height: 80vh;
+  flex-wrap: wrap;
 }
 
 .beneficios {

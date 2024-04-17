@@ -3,6 +3,7 @@
   background-image: linear-gradient(to top, rgb(51, 51, 51), rgba(255, 255, 255, 0)), url(../assets/slaman.jpg);
   background-position: center;
   background-size: cover;
+  flex-wrap: wrap;
 }
 
 .home-content{
@@ -49,7 +50,4 @@
   100% {
     transform: scale(0.95);
   }
-}
-
-.home-image img{
 }

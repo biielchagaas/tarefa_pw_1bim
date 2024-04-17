@@ -3,6 +3,7 @@
   min-height: 60vh;
   padding: 50px;
   display: flex;
+  flex-wrap: wrap; /* Added */
 }
 
 .catalogo-produto {
@@ -111,4 +112,18 @@ h3 {
 .card p span {
   font-size: 20px;
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 48%; /* Modified */
+    margin: 1% 1%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Modified */
+    margin: 1% 1%;
+  }
 }
